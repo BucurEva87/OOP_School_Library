@@ -1,4 +1,4 @@
-class Student
+class Student < Person
   attr_reader :classroom
 
   def initialize(classroom)
