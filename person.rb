@@ -13,8 +13,6 @@ class Person < Nameable
     super()
   end
 
-  private :of_age?
-
   def of_age?
     @age >= 18
   end
